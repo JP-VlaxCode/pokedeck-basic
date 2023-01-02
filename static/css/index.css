@@ -1,0 +1,57 @@
+header {
+  min-height: 150px;
+  background-color: #9e2a22;
+  padding: 2rem 2rem 0 2rem;
+}
+
+header h1 {
+  color: #FFF;
+  margin-bottom: 0.5rem;
+}
+
+header h2 {
+  color: #FFF;
+}
+
+nav ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 60px;
+  background-color: #82c3c5;
+  font-weight: 500;
+}
+
+.content-cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.content-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.content-card p {
+  margin: 6px;
+}
+
+.filter {
+  display: flex;
+  flex-direction: row;
+}
+
+.filter input {
+  margin-right: 0.4rem;
+  min-width: 300px;
+  padding: 0.4rem;
+}
+
+section.cards h3 {
+  font-size: 1.8rem;
+  font-weight: 300;
+  color: var(--gray);
+}

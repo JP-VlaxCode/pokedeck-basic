@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pokedeck</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="static/css/reset.css" />
+    <link rel="stylesheet" href="static/css/global.css" />
+    <link rel="stylesheet" href="static/css/index.css" />
+  </head>
+  <body>
+    <header>
+      <h1>PokeDeck</h1>
+      <h2>El lugar donde donde encontraras la info, que estabas buscando.</h2>
+    </header>
+    
+    <nav>
+      <ul>
+        <li>Inicio</li>
+        <li>Pokemones</li>
+        <li>Tiendas</li>
+      </ul>
+    </nav>
+
+    <section class="filter ph-2 mv-1">
+      <input type="text" placeholder="Escribe lo que deseas buscar" onchange="searchPokemon(this)" />
+      <button>Limpiar</button>
+    </section>
+
+    <section class="cards ph-2">
+      <h3 class="mv-2">Contenido de cartas</h3>
+      <!-- START: Multi Elements -->
+      <div id="content-cards" class="content-cards"></div>
+      <!-- END: Multi Elements -->
+    </section>
+
+    <script src="./static/index.js"></script>
+  </body>
+</html>

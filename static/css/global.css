@@ -1,0 +1,52 @@
+:root {
+  --black: #292929;
+  --gray: #808080;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: var(--black);
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+.ph-1 {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+.ph-2 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.ph-3 {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.mv-1 {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.mv-2 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.mv-3 {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.text-gray {
+  color: var(--gray);
+}

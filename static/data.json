@@ -1,0 +1,38 @@
+[
+  {
+    "indentifier": "1/73 Common",
+    "name": "Bulbasaur",
+    "type": "Hierba",
+    "image": "https://assets.pokemon.com/assets/cms2-es-es/img/cards/web/SM35/SM35_ES_1.png"
+  },
+  {
+    "indentifier": "1/70 Common",
+    "name": "Charmander",
+    "type": "Fuego",
+    "image": "https://assets.pokemon.com/assets/cms2-es-es/img/cards/web/SM75/SM75_ES_1.png"
+  },
+  {
+    "indentifier": "96/133 Common",
+    "name": "Squirtle",
+    "type": "Agua",
+    "image": "https://assets.pokemon.com/assets/cms2-es-es/img/cards/web/PL1/PL1_ES_96.png"
+  },
+  {
+    "indentifier": "42/146 Common",
+    "name": "Pikachu",
+    "type": "Electrico",
+    "image": "https://assets.pokemon.com/assets/cms2/img/cards/web/XY1/XY1_EN_42.png"
+  },
+  {
+    "indentifier": "59/195 Radiant Rare",
+    "name": "Radiant Alakazam",
+    "type": "Psiquico",
+    "image": "https://assets.pokemon.com/assets/cms2/img/cards/web/SWSH12/SWSH12_EN_59.png"
+  },
+  {
+    "indentifier": "24/192 Common",
+    "name": "Vulpix",
+    "type": "Fuego",
+    "image": "https://assets.pokemon.com/assets/cms2/img/cards/web/SWSH2/SWSH2_EN_24.png"
+  }
+]
