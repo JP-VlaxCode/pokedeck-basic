@@ -1,5 +1,5 @@
 function main() {
-  fetch("static/stores.json")
+  fetch("static/data/stores.json")
     .then((data) => {
       data.json().then((elements) => {
         sessionStorage.setItem("stores", JSON.stringify(elements));

@@ -32,17 +32,17 @@
       </ul>
     </nav>
 
-    <section class="filter ph-2 mv-1">
+    <section class="filter ph-2 mv-2">
       <input
         type="text"
         placeholder="Escribe lo que deseas buscar"
         onchange="searchPokemon(this)"
       />
-      <button>Limpiar</button>
+      <button onclick="clearSearch()">Limpiar</button>
     </section>
 
     <section class="cards ph-2">
-      <h3 class="mv-2">Contenido de cartas</h3>
+      <h3 class="mv-2">Cartas</h3>
       <!-- START: Multi Elements -->
       <div id="content-cards" class="content-cards"></div>
       <!-- END: Multi Elements -->
