@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Pokedeck</title>
+    <title>Pokedeck - Stores</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -13,7 +13,7 @@
     />
     <link rel="stylesheet" href="static/css/reset.css" />
     <link rel="stylesheet" href="static/css/global.css" />
-    <link rel="stylesheet" href="static/css/index.css" />
+    <link rel="stylesheet" href="static/css/stores.css" />
   </head>
   <body>
     <header>
@@ -23,34 +23,29 @@
 
     <nav>
       <ul>
-        <li class="active">
+        <li>
           <a href="./index.html">Pokemones</a>
         </li>
-        <li>
+        <li class="active">
           <a href="./stores.html">Tiendas</a>
         </li>
       </ul>
     </nav>
 
-    <section class="filter ph-2 mv-1">
-      <input
-        type="text"
-        placeholder="Escribe lo que deseas buscar"
-        onchange="searchPokemon(this)"
-      />
-      <button>Limpiar</button>
+
+    <section class="stores ph-2">
+      <div class="store">
+        <img src="https://www.playset.cl/wp-content/uploads/2022/03/logoweb.png" alt="logo-playset">
+        <p>Playset</p>
+        <a href="https://www.playset.cl">ver sitio</a>
+      </div>
+      <div class="store">
+        <img src="https://www.magic4ever.cl/images/store_logo.png" alt="logo-magic4ever">
+        <p>magic4ever</p>
+        <a href="https://www.magic4ever.cl">ver sitio</a>
+      </div>
     </section>
 
-    <section class="cards ph-2">
-      <h3 class="mv-2">Contenido de cartas</h3>
-      <!-- START: Multi Elements -->
-      <div id="content-cards" class="content-cards"></div>
-      <!-- END: Multi Elements -->
-    </section>
-
-    <greetings-element></greetings-element>
-
-    <script src="./static/index.js"></script>
-    <script src="webcomponents/greetings.js"></script>
+    <script src="./static/stores.js"></script>
   </body>
 </html>

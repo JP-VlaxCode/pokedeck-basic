@@ -23,6 +23,12 @@ nav ul{
   font-weight: 500;
 }
 
+nav .active a {
+  color: #b2423a;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
 .content-cards {
   display: flex;
   flex-direction: row;
@@ -47,7 +53,7 @@ nav ul{
 
 .filter input {
   margin-right: 0.4rem;
-  min-width: 300px;
+  min-width: 250px;
   padding: 0.4rem;
 }
 
